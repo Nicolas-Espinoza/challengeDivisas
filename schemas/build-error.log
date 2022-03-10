@@ -1,0 +1,166 @@
+{
+	"public": {
+		"errors": [
+			{
+				"keyword": "additionalProperties",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema.properties['response'].items",
+				"schemaPath": "#/additionalProperties",
+				"params": {
+					"additionalProperty": "parDivisas"
+				},
+				"message": "should NOT have additional properties"
+			},
+			{
+				"keyword": "additionalProperties",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema.properties['response'].items",
+				"schemaPath": "#/additionalProperties",
+				"params": {
+					"additionalProperty": "parDivisas"
+				},
+				"message": "should NOT have additional properties"
+			},
+			{
+				"keyword": "required",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema.properties['response'].items",
+				"schemaPath": "#/required",
+				"params": {
+					"missingProperty": "$ref"
+				},
+				"message": "should have required property '$ref'"
+			},
+			{
+				"keyword": "oneOf",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema.properties['response'].items",
+				"schemaPath": "#/oneOf",
+				"params": {
+					"passingSchemas": null
+				},
+				"message": "should match exactly one schema in oneOf"
+			},
+			{
+				"keyword": "type",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema.properties['response'].items",
+				"schemaPath": "#/properties/items/anyOf/1/type",
+				"params": {
+					"type": "array"
+				},
+				"message": "should be array"
+			},
+			{
+				"keyword": "anyOf",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema.properties['response'].items",
+				"schemaPath": "#/properties/items/anyOf",
+				"params": {},
+				"message": "should match some schema in anyOf"
+			},
+			{
+				"keyword": "additionalProperties",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema.properties['response']",
+				"schemaPath": "#/additionalProperties",
+				"params": {
+					"additionalProperty": "type"
+				},
+				"message": "should NOT have additional properties"
+			},
+			{
+				"keyword": "additionalProperties",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema.properties['response']",
+				"schemaPath": "#/additionalProperties",
+				"params": {
+					"additionalProperty": "items"
+				},
+				"message": "should NOT have additional properties"
+			},
+			{
+				"keyword": "required",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema.properties['response']",
+				"schemaPath": "#/required",
+				"params": {
+					"missingProperty": "$ref"
+				},
+				"message": "should have required property '$ref'"
+			},
+			{
+				"keyword": "oneOf",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema.properties['response']",
+				"schemaPath": "#/oneOf",
+				"params": {
+					"passingSchemas": null
+				},
+				"message": "should match exactly one schema in oneOf"
+			},
+			{
+				"keyword": "additionalProperties",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema",
+				"schemaPath": "#/additionalProperties",
+				"params": {
+					"additionalProperty": "type"
+				},
+				"message": "should NOT have additional properties"
+			},
+			{
+				"keyword": "additionalProperties",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema",
+				"schemaPath": "#/additionalProperties",
+				"params": {
+					"additionalProperty": "properties"
+				},
+				"message": "should NOT have additional properties"
+			},
+			{
+				"keyword": "required",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema",
+				"schemaPath": "#/required",
+				"params": {
+					"missingProperty": "$ref"
+				},
+				"message": "should have required property '$ref'"
+			},
+			{
+				"keyword": "oneOf",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200'].content['application/json'].schema",
+				"schemaPath": "#/oneOf",
+				"params": {
+					"passingSchemas": null
+				},
+				"message": "should match exactly one schema in oneOf"
+			},
+			{
+				"keyword": "additionalProperties",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200']",
+				"schemaPath": "#/additionalProperties",
+				"params": {
+					"additionalProperty": "description"
+				},
+				"message": "should NOT have additional properties"
+			},
+			{
+				"keyword": "additionalProperties",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200']",
+				"schemaPath": "#/additionalProperties",
+				"params": {
+					"additionalProperty": "content"
+				},
+				"message": "should NOT have additional properties"
+			},
+			{
+				"keyword": "required",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200']",
+				"schemaPath": "#/required",
+				"params": {
+					"missingProperty": "$ref"
+				},
+				"message": "should have required property '$ref'"
+			},
+			{
+				"keyword": "oneOf",
+				"dataPath": ".paths['/api/getPairs'].get.responses['200']",
+				"schemaPath": "#/oneOf",
+				"params": {
+					"passingSchemas": null
+				},
+				"message": "should match exactly one schema in oneOf"
+			}
+		]
+	}
+}

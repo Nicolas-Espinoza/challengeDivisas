@@ -1,0 +1,12 @@
+components:
+  schemas:
+    Pairs:
+      description: un par de divisas
+      type: object
+      properties:
+        par:
+          type: string
+          example: "EUR-USD"
+        rate:
+          type: string
+          example: "1.1047"

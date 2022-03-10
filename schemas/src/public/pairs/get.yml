@@ -1,0 +1,27 @@
+paths:
+  /api/getPairs:
+    get:
+      operationId: get pairs
+      tags:
+        - Pairs
+      summary: Obtiene los pares de divisas por defecto
+      security:
+        - ApiKey: []
+          ApiSecret: []
+      responses:
+        "200":
+          description: successfull operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  response:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Pairs"
+        "500":
+          description: server error
